@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+  background-color: pink;
+}
+
+h1 {
+  font-family: arial;
+  font-size: 26pt;
+  font-style: italic; 
+  color: purple;
+  margin-top: 25px;
+  text-decoration: Underline;
+}
+
+canvas {
+  width: 400px; 
+  height: 300px;
+  border: 3px solid black;
+  
+ }
+
+em {
+  font-family: arial;
+  font-size: 18pt;
+  font-style: italic; 
+  color: brown;
+}
+
+input[type=button]{
+  padding: 10px;
+  border: 1px solid grey;
+  font-weight: bold;
+}

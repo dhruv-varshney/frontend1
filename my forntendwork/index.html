@@ -1,0 +1,45 @@
+<script async="" src="pathToJSLibraryContainingSimpleImageMethod.js"></script>
+<link rel="stylesheet" type="text/css" href="index.css" />
+<script type = "text/javascript" src= "index.js"></script>
+
+
+<h1>Mini-Project Image Filters</h1>
+<h2> By Dhruv Varshney </h2>
+
+<canvas id="can">
+</canvas>
+
+
+<div><em>
+  Upload Image:
+  </em><input type="file" multiple="false" accept="images/*" id="file" onchange="load()">
+</div>
+
+<p><em>
+
+  Select filters from below: </em>
+
+</p>
+<p>
+  <input type="button" class="red" value=" Red Hue  " onclick="red()">
+
+  <input type="button" class="green" value=" Green Hue " onclick="green()">
+
+  <input type="button" class="blue" value=" Blue Hue  " onclick="blue()">
+
+  <input type="button" class="rainbow" value=" Rainbow Filter  " onclick="rainbow()">
+
+  <input type="button" class="clear" value=" Clear Image " onclick="clearImage()">
+</p>
+
+<p>
+  <input type="button" class="blur" value="Blur Image" onclick="blurImage()">
+
+  <input type="button" class="window" value="Window Filter" onclick="windowFilter()">
+
+  <input type="button" class="grey" value="Greyscale Filter"
+ onclick="grey()">
+
+  <input type="button" class="reset" value="Reset Filter" onclick="resetImage()">
+</p>
+</body>
